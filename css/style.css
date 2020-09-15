@@ -1,0 +1,339 @@
+section.main {
+    background-image: url('../images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 15px 0;
+    min-height: 800px;
+    position: relative;
+}
+section.main header {
+    position: relative;
+    z-index: 3;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+section.main > .layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+.icons-social {
+    float: right;
+}
+.icons-social a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.logo {
+    float: left;
+    margin-top: 20px;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+nav.desktop {
+    float: right;
+    margin-top: 20px;
+}
+nav.desktop ul {
+    list-style-type: none;
+}
+nav.desktop li {
+    font-size: 17px;
+    font-weight: lighter;
+    display: inline-block;
+    margin: 0 15px;
+}
+nav.desktop a {
+    color: white;
+    text-decoration: none;
+}
+.conteudo-header {
+    margin: 90px 0;
+    max-width: 700px;
+    position: relative;
+    z-index: 2;
+}
+.conteudo-header h2 span {
+    color: #2696FF;
+}
+.conteudo-header h2 {
+    font-size: 44px;
+    font-weight: lighter;
+    color: white;
+}
+.conteudo-header p {
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 18px;
+}
+.conteudo-header a {
+    width: 177px;
+    height: 44px;
+    background-color: #2696FF;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 18px;
+    border-radius: 20px;
+    line-height: 44px;
+}
+.chamada-planos {
+    width: 100%;
+    text-align: center;
+    padding: 27px 2%;
+    background: rgb(220, 220, 220);
+}
+.chamada-planos h2 {
+    display: inline-block;
+    border-top: 2px solid #2696FF;
+    color: #2696FF;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.box-planos {
+    padding: 40px 0;
+}
+.box-planos > .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-planos-single {
+    width: 33.3%;
+    padding: 0 30px;
+}
+.box-plano-wrapper {
+    width: 100%;
+    border: 1px solid #cccccc;
+    min-height: 200px;
+    -moz-box-shadow: 10px 9px 5px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 9px 10px 5px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 9px 5px -8px rgba(0, 0, 0, 0.75);
+}
+.box-planos-single h2 {
+    background: #2696FF;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    font-weight: lighter;
+}
+.pontos-plano {
+    padding: 8px 0 15px 0;
+}
+.box-planos-single p {
+    margin-left: 20px;
+    color: #777777;
+    font-size: 17px;
+    margin-top: 8px;
+}
+.box-planos-single i {
+    margin-right: 20px;
+}
+.preco {
+    margin-top: 40px;
+    padding: 15px 0;
+    text-align: center;
+}
+.preco h2 {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #777777;
+    background-color: transparent;
+    border-top: 1px solid #cccccc;
+    font-size: 24px;
+}
+section.parallax {
+    width: 100%;
+    min-height: 300px;
+    background-image: url('../images/bg_parallax.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 40px 0;
+    position: relative;
+}
+section.parallax p{
+    color: white;
+    margin-top: 15px;
+}
+section.parallax h2 {
+    color: white;
+    text-align: center;
+}
+section.parallax > .container {
+    position: relative;
+    z-index: 2;
+    margin: 40px auto;
+    max-width: 960px;
+    color: white;
+}
+.overlay-parallax {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(20, 20, 20, 0.6);
+}
+section.final-section {
+    padding: 50px 0;
+}
+section.final-section h2 {
+    font-weight: lighter;
+    position: relative;
+    color: #777777;
+    font-size: 24px;
+}
+section.final-section h2 > .border-efeito {
+    width: 100px;
+    height: 2px;
+    background: #777;
+    position: absolute;
+    transition: 0.4s;
+}
+section.final-section h2:hover > .border-efeito {
+    width: 200px;
+}
+section.final-section .contato form input:not([type=submit]) {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.contato input[type=submit] {
+    background: #2696FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 100px;
+    height: 33px;
+    font-size: 15px;
+    display: block;
+    margin-top: 15px;
+}
+.equipe-single .box-avatar {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #ccc;
+}
+.contato textarea {
+    width: 100%;
+    height: 120px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 8px;
+    resize: none;
+}
+.equipe-single {
+    border: 1px solid #ccc;
+    min-height: 240px;
+    padding: 10px 8px;
+    padding-bottom: 30px;
+    -moz-box-shadow: 10px 9px 5px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 9px 10px 5px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 9px 5px -8px rgba(0, 0, 0, 0.75);
+}
+.time > .w50 {
+    width: 48%;
+    margin: 10px 1%;
+}
+.topo-box-user {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.info-user {
+    display: inline-block;
+    color: #777777;
+    padding-left: 8px;
+    vertical-align: middle;
+}
+.descricao-user-box {
+    color: #999999;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-top: 10px;
+}
+nav.mobile {
+    display: none;
+    float: right;
+}
+nav.mobile ul {
+    position: absolute;
+    left: 0;
+    top: 93px;
+    width: 100%;
+    background-color: white;
+    z-index: 6;
+    display: none;
+}
+nav.mobile ul li {
+    text-align: center;
+    position: relative;
+    z-index: 7;
+    border-bottom: 1px solid #ccc;
+}
+nav.mobile ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 0;
+    display: block;
+}
+nav.mobile .menu-btn {
+    color: white;
+    padding: 20px 25px;
+    padding-bottom: 0;
+    font-size: 26px;
+    cursor: pointer;
+}
+footer {
+    padding: 30px 0;
+    text-align: center;
+    background-color: #444;
+    color: white;
+}
+@media screen and (max-width: 768px) {
+    .box-planos-single {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .pontos-plano {
+        text-align: center;
+        margin:20px 0 0 0;
+    }
+    .pontos-plano p {
+        margin: 0;
+    }
+    .w50{width: 100%;}
+    .time > .w50 {
+        width: 100%;
+        margin: 15px 0;
+    }
+    nav.mobile {
+        display: block;
+    }
+    nav.desktop {
+        display: none;
+    }
+    .parallax > .container {
+        text-align: center;
+    }
+}
